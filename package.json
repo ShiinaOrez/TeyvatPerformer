@@ -1,0 +1,19 @@
+{
+  "name": "teyvatperformer",
+  "version": "1.0.0",
+  "description": "原神自动弹琴脚本～提瓦特小小演奏家～",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShiinaOrez/TeyvatPerformer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShiinaOrez/TeyvatPerformer/issues"
+  },
+  "homepage": "https://github.com/ShiinaOrez/TeyvatPerformer#readme"
+}
