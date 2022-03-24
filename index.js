@@ -1,8 +1,11 @@
 const fs = require('fs')
+
 const zenzenzense = require('./gakufu/zenzenzense')
 const yellow = require('./gakufu/yellow')
 const odori = require('./gakufu/odori')
 const twoTigers = require('./gakufu/twoTigersLoveDancing')
+const pokemon = require('./gakufu/pokemon')
+const hanafurashi = require('./gakufu/hanafurashi')
 
 const perform = require('./key_map')
 
@@ -10,7 +13,9 @@ const allGakufu = {
     'zenzenzense': zenzenzense,
     'yellow': yellow,
     'odori': odori,
-    'twoTigers': twoTigers
+    'twoTigers': twoTigers,
+    'pokemon': pokemon,
+    'hanafurashi': hanafurashi
 }
 
 function main(songName) {
@@ -26,4 +31,4 @@ function main(songName) {
     spawn( 'cscript.exe', [ '.\\script.vbs'] );
 }
 
-main('twoTigers');
+main('hanafurashi');
